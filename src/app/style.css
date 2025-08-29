@@ -1,3 +1,17 @@
+:root{
+  --bg:#171717;
+  --panel:#101010;
+  --text:#f5f5f5;
+  --muted:#cfcfcf;
+  --gold:#f0c041;
+  --gold-700:#d5a930;
+  --stroke:#2a2a2a;
+  --error:#ff6b6b;
+  --radius:16px;
+  --shadow:0 14px 40px rgba(0,0,0,.35);
+}
+
+
 * {
   padding: 0;
   margin: 0;
@@ -522,6 +536,171 @@ h1 span {
   height: 40px;
   /* margin-bottom: 12px; */
 }
+/* membership section css start here */
+.membership-work a { color: inherit; text-decoration: none; }
+
+.membership-work  .shell {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding: 0 20px;
+}
+
+.membership-work  .topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.membership-work  .brand {
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--gold);
+  letter-spacing: .6px;
+}
+
+.membership-work  .navlinks {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.membership-work  .btn {
+  background: var(--gold);
+  color: #151515;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.membership-work  .btn:focus-visible {
+  outline: 3px solid #ffffff22;
+  outline-offset: 2px;
+}
+
+.membership-work  .link { opacity: .9; }
+.membership-work  .link:hover { opacity: 1; }
+
+.membership-work  .btn--ghost {
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+}
+
+/* Membership section */
+.membership-work  .cc-membership { padding: 56px 0 96px; }
+
+.membership-work  .ccm-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: clamp(32px, 4vw, 56px);
+  letter-spacing: .4px;
+  margin: 10px 0 40px;
+}
+
+.membership-work  .ccm-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+@media (max-width: 980px) {
+  .membership-work  .ccm-grid { grid-template-columns: 1fr; }
+}
+
+.membership-work  .ccm-card {
+  background: var(--card);
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px 26px 22px;
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+
+.membership-work  .ccm-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(0,0,0,.5);
+  border-color: #3a3a3a;
+}
+
+.membership-work  .ccm-card--elite { outline: 2px solid var(--ring); }
+
+.membership-work  .ccm-card-title {
+  margin: 6px 0 18px;
+  font-size: clamp(30px, 3vw, 44px);
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+
+.membership-work  .ccm-price {
+  display: inline-block;
+  background: var(--gold);
+  color: #171717;
+  font-weight: 800;
+  border-radius: 12px;
+  padding: 10px 14px 9px;
+  font-size: 18px;
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,.12);
+  margin-bottom: 16px;
+}
+
+.ccm-card:hover .ccm-price { background: var(--gold-700); }
+
+.membership-work  .ccm-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px;
+  display: grid;
+  gap: 10px;
+  font-size: 17px;
+}
+
+.membership-work  .ccm-list li { display: flex; align-items: flex-start; }
+
+.membership-work  .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--gold);
+  display: inline-block;
+  transform: translateY(-2px);
+  margin-right: 10px;
+}
+
+.membership-work  .ccm-div {
+  height: 1px;
+  background: var(--stroke);
+  border: none;
+  margin: 16px 0 12px;
+}
+
+.membership-work  .ccm-sub {
+  font-size: 15px;
+  color: var(--muted);
+  margin: 4px 0 8px;
+  letter-spacing: .3px;
+}
+
+.membership-work  .ccm-addons { color: var(--muted); }
+
+.membership-work  .ccm-ctas {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.membership-work  .ccm-ctas .btn {
+  width: 100%;
+  text-align: center;
+}
+
+/* membership section css end here */
 
 /* top rated barber */
 .barber-preview {
@@ -1075,7 +1254,21 @@ h1 span {
   background: #cc7a00;
   cursor: pointer;
 }
+.slick-dots {
+  bottom: -40px !important; /* neeche dots ki position */
+}
 
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #f4a300; /* default dot color */
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #f4a300; /* active dot color */
+  opacity: 1;
+  font-size: 14px;
+}
 /* Footer section css */
 .footer {
   background-color: #0c0c0c;
@@ -1111,7 +1304,7 @@ h1 span {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 60px 40px;
-  background-image: url("../../public/assets/images/b1.jpg");
+  /* background-image: url("../../public/assets/images/b1.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1716,7 +1909,7 @@ h1 span {
 }
 
 .barber-boost-section {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(40px);
   transition: all 0.8s ease-out;
 }
@@ -1728,7 +1921,7 @@ h1 span {
 }
 
 .boost-item {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(40px);
   transition: all 0.6s ease-out;
 }
@@ -1739,7 +1932,7 @@ h1 span {
 }
 
 .boost-cta {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(40px);
   transition: all 0.8s ease-out;
 }
@@ -1860,3 +2053,129 @@ h1 span {
   width: 100%;
   text-align: center;
 }
+
+
+
+/* login page css start here */
+
+.custom-login {
+  background:var(--bg);
+  color:var(--text);
+  font-family:"League Spartan",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  line-height:1.25;
+  letter-spacing:.2px;
+  display:grid;
+  place-items:center;
+  padding:24px;
+}
+.custom-login .card{
+  width:100%;
+  max-width:420px;
+  background:var(--panel);
+  border:1px solid var(--stroke);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+  padding:28px;
+}
+.custom-login  .brand{
+  text-align:center;
+  color:var(--gold);
+  font-weight:800;
+  font-size:36px;
+  letter-spacing:.6px;
+  margin:6px 0 18px;
+}
+.custom-login  .role-toggle{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin:10px 0 22px;
+}
+.custom-login  .toggle-btn{
+  appearance:none;
+  background:#1a1a1a;
+  color:var(--text);
+  border:1px solid var(--stroke);
+  border-radius:12px;
+  padding:12px 14px;
+  font-weight:800;
+  cursor:pointer;
+  transition:background .15s, border-color .15s, transform .05s;
+  text-align:center;
+}
+.custom-login  .toggle-btn:hover{border-color:#3a3a3a}
+.custom-login  .toggle-btn:active{transform:translateY(1px)}
+.custom-login  .toggle-btn[aria-pressed="true"]{
+  background:var(--gold);
+  color:#151515;
+  border-color:var(--gold-700);
+}
+.custom-login  .field{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:#ffff;
+  border:1px solid var(--stroke);
+  border-radius:12px;
+  padding:12px 14px;
+  margin:12px 0;
+}
+.custom-login  .field:focus-within{border-color:#3c3c3c}
+.custom-login  .field input{
+  background:transparent;
+  border:0;
+  outline:0;
+  color:var(--text);
+  font-size:16px;
+  width:100%;
+}
+.custom-login  .eye{
+  background:transparent;
+  border:0;
+  color:var(--muted);
+  cursor:pointer;
+  font-size:14px;
+}
+.custom-login  .helper{
+  text-align:center;
+  color:var(--muted);
+  font-size:14px;
+  margin:6px 0 14px;
+}
+.custom-login  .helper a{color:var(--gold); text-decoration:none}
+.custom-login  .helper a:hover{text-decoration:underline}
+.custom-login  .btn{
+  width:100%;
+  background:var(--gold);
+  color:#151515;
+  border:0;
+  border-radius:12px;
+  padding:14px 16px;
+  font-weight:800;
+  font-size:22px;
+  cursor:pointer;
+  transition:filter .15s, transform .05s, background .15s;
+}
+.custom-login  .btn:hover{filter:brightness(1.02)}
+.custom-login  .btn:active{transform:translateY(1px)}
+.custom-login  .btn:disabled{
+  background:#8e7a35;
+  cursor:not-allowed;
+  filter:none;
+}
+.custom-login  .error{
+  display:none;
+  color:var(--error);
+  font-size:14px;
+  margin-top:6px;
+  text-align:center;
+}
+@media (max-width:420px){
+  .custom-login .brand{font-size:32px}
+  .custom-login  .btn{font-size:20px}
+}
+
+
+
+
+/* slick theme.css */
