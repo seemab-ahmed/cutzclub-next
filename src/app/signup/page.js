@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function Signup() {
   return (
-    <main className="wrap">
+    <section className="signup-section">
+        <main className="wrap">
       <header className="brand">
         <h1>CUTZCLUB</h1>
       </header>
@@ -38,5 +39,7 @@ export default function Signup() {
         </form>
       </section>
     </main>
+    </section>
+  
   );
 }
