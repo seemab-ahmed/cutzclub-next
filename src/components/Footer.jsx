@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import facebookk from "../../public/assets/icons/facebookk.png";
 import insta from "../../public/assets/icons/insta.png";
 import twitter from "../../public/assets/icons/twitter.png"
@@ -7,68 +6,6 @@ import footer from "../../public/assets/images/cutzclub.webp"
 export default function BarberPreview() {
   return (
     <>
-      {/* Pricing Plans Section  */}
-    <section class="section-pricing-plans">
-        <div class="container pricing-main-dev">
-            <h2 class="custom-heading">Choose the Right Plan for You</h2>
-            <p class="default-text" data-aos-offset="80">Simple, transparent pricing designed to match your growth.
-            </p>
-
-            <div class="pricing-cards-grid">
-                <div class="pricing-card">
-                    <h3 class="plan-name">Starter</h3>
-                    <p class="plan-price" data-aos-offset="100">$9.99 <span>/month</span></p>
-                    <ul class="plan-features">
-                        <li>15% platform fee (you keep 85% of earnings)</li>
-                        <li> Manage up to 50 clients</li>
-                        <li> Listed in the CutzClub directory</li>
-                        <li> Basic booking & calendar tools</li>
-                        <li> Profile, service menu, and reviews</li>
-                        <li> Optional Add-Ons: </li>
-                        <div><span> -</span> AI Analytics – $14.99/month</div>
-                        <div><span> -</span> Text & Email Reminders – $4.99/month</div>
-                       
-                    </ul>
-                </div>
-
-                <div class="pricing-card pricing-card-featured">
-                    <h3 class="plan-name">Pro</h3>
-                    <p class="plan-price">$19.99 <span>/month</span></p>
-                     <ul class="plan-features">
-                        <li>7% platform fee (you keep 93% of earnings)</li>
-                        <li>Unlimited clients</li>
-                        <li>Priority search placement</li>
-                        <li>Photo gallery & reviews</li>
-                        <li>Performance insights & monthly reports</li>
-                        <li>Optional Add-Ons: </li>
-                        <div><span> -</span> AI Analytics – $14.99/month</div>
-                        <div><span> -</span> Text & Email Reminders – $4.99/month</div>
-                       
-                    </ul>
-
-                </div>
-                <div class="pricing-card .elite-highlight">
-                    <h3 class="plan-name">Elite</h3>
-                    <p class="plan-price">$49.99 <span>/month</span></p>
-                    <div></div>
-                    <ul class="plan-features">
-                        <li>0% platform fee (you keep 100% of earnings)</li>
-                        <li>Unlimited clients</li>
-                        <li>Featured homepage placement</li>
-                        <li>Advanced analytics & business trends</li>
-                        <li>AI-powered service builder</li>
-                        <li>Text & Email Reminders included</li>
-                        <li>Premium Elite badge + branding</li>
-                        <li>Priority support + onboarding</li>
-                        <li>Early access to new features</li>
-                    </ul>
-                     {/* <div class="badge">Most Popular</div>  */}
-
-                </div>
-            </div>
-        </div>
-    </section>
-
       {/* Footer start here  */}
     <footer class="footer">
         <div class="footer-container container ">
