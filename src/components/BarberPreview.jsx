@@ -77,7 +77,7 @@ export default function BarberPreview() {
                             <span>(5.0)</span>
                         </p>
                         <p className="location"><i className="fa-solid fa-location-dot"></i> Miami, FL</p>
-                        <p className="specialty">Specialist in women's cuts, natural styling, and loc maintenance.</p>
+                        <p className="specialty">Specialist in women&apos;s cuts, natural styling, and loc maintenance.</p>
                         <div className="team-socials">
                             <a href="#"><i className="fab fa-linkedin-in"></i></a>
                             <a href="#"><i className="fab fa-facebook-f"></i></a>
@@ -177,7 +177,7 @@ export default function BarberPreview() {
               <i className="fa fa-quote-left testimonial-quote-icon" aria-hidden="true"></i>
               <blockquote className="testimonial-review">
                 "CutzClub delivered ahead of schedule and under budget a full-service solution for our
-                project's manufacturing data collection and retrieval needs."
+                project&apos;s manufacturing data collection and retrieval needs."
               </blockquote>
               <div className="testi-detail">
                 <img src="./assets/images/client_1.png" alt="Bryan Buchanan - 3M Company"
@@ -193,7 +193,7 @@ export default function BarberPreview() {
               <i className="fa fa-quote-left testimonial-quote-icon" aria-hidden="true"></i>
               <blockquote className="testimonial-review">
                 "CutzClub delivered ahead of schedule and under budget a full-service solution for our
-                project's manufacturing data collection and retrieval needs."
+                project&apos;s manufacturing data collection and retrieval needs."
               </blockquote>
               <div className="testi-detail">
                 <img src="./assets/images/client2.png" alt="Bryan Buchanan - 3M Company" className="testimonial-image"
@@ -209,7 +209,7 @@ export default function BarberPreview() {
               <i className="fa fa-quote-left testimonial-quote-icon" aria-hidden="true"></i>
               <blockquote className="testimonial-review">
                 "CutzClub delivered ahead of schedule and under budget a full-service solution for our
-                project's manufacturing data collection and retrieval needs."
+                project&apos;s manufacturing data collection and retrieval needs."
               </blockquote>
               <div className="testi-detail">
                 <img src="./assets/images/client_1.png" alt="Bryan Buchanan - 3M Company" className="testimonial-image"
@@ -224,7 +224,7 @@ export default function BarberPreview() {
             <div className="testimonial-card">
               <i className="fa fa-quote-left testimonial-quote-icon" aria-hidden="true"></i>
               <blockquote className="testimonial-review">
-                "After using CutzClub's services for only a few months now, I feel that the quality of
+                "After using CutzClub&apos;s services for only a few months now, I feel that the quality of
                 service is truly outstanding and indeed beyond our expectations."
               </blockquote>
               <div className="testi-detail">

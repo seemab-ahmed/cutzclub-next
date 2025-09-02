@@ -219,7 +219,7 @@ export default function ProfileDetail() {
                   </div>
 
                   <div className="review-tags">
-                    <span className="tag">Apriyl's cut  +</span>
+                    <span className="tag">Apriyl&apos;s cut  +</span>
                     <span className="tag">trice rangs</span>
                   </div>
 
