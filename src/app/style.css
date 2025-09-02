@@ -2081,8 +2081,7 @@ h1 span {
   letter-spacing:.2px;
   display:grid;
   place-items:center;
-  padding:100px 20px 50px 20px;
-  height: 70vh;
+  padding:100px 20px 50px 20px
 }
 
 .custom-login .card{
@@ -2093,6 +2092,7 @@ h1 span {
   border-radius:24px;
   box-shadow:var(--shadow);
   padding:50px 30px;
+  margin: 24px auto 80px;
 }
 .custom-login  .brand{
   text-align:center;
@@ -2239,7 +2239,7 @@ h1 span {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0 50px 0;
+  padding: 100px 20px 50px 20px;
 }
 
 /* Layout */
@@ -2397,16 +2397,23 @@ background-color: #000 !important;
   border-bottom: 1px dotted rgba(255,255,255,.3);
 }
 .login a:hover{ opacity: .9; color:var(--cc-gold) }
-
+@media (max-width: 768px){
+      .signup-section .wrap {
+        padding: 30px 15px;
+    }
+}
 /* Responsiveness */
 @media (max-width: 520px){
-  .signup-section .wrap{ margin-top: 18px; }
   .signup-section .role{ gap: 12px; flex-wrap: wrap; }
   .signup-section .pill{ padding: 12px 18px; font-size: 15px; }
   .signup-section .btn{ font-size: 20px; }
 }
 /* signup page css end here */
 
+/* custom-membership css start here */
+.custom-membership .container{
+  max-width: 1280px;
+}
 
 
 /* search page css start here */
