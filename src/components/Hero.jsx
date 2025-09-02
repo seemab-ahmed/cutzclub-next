@@ -65,12 +65,12 @@ export default function Hero() {
             </div>
           </section>
 
-            <section class="membership-work" id="membership">
-                  <div class="container">
-                      <div class="master-box">
+            <section className="membership-work" id="membership">
+                  <div className="container">
+                      <div className="master-box">
                           <h2 className="josefin-sans-bold">Why Membership Works </h2>
-                          <div class="main-box">
-                              <div class="image-box">
+                          <div className="main-box">
+                              <div className="image-box">
                                   <p className="josefin-sans-bold membership-dosktop">
                                       Whether you're new or fully booked, CutzClub helps you attract clients, save time, and
                                       boost
@@ -81,41 +81,41 @@ export default function Hero() {
                                       boost income — all in one place.
                                   </p>
                                   <Image src={membership} alt="satisfied image"
-                                      class="mw-cutout" width={100} height={100} />
+                                      className="mw-cutout" width={100} height={100} />
                               </div>
-                              <ul class="why-membership-list">
-                                  <li class="wm-item" data-aos="fade-left" data-aos-delay="400" data-aos-duration="700"
+                              <ul className="why-membership-list">
+                                  <li className="wm-item" data-aos="fade-left" data-aos-delay="400" data-aos-duration="700"
                                       data-aos-easing="ease-in-out" data-aos-offset="150">
-                                      <span class="josefin-sans-bold">Smart AI Tools</span>
-                                      <p class="josefin-sans-semiblod">Build better service packages, see booking trends, and get insights to grow your income.</p>
-                                      <p class="josefin-sans-semiblod">Elite: Included · Starter & Pro: $14.99/mo add-on</p>
+                                      <span className="josefin-sans-bold">Smart AI Tools</span>
+                                      <p className="josefin-sans-semiblod">Build better service packages, see booking trends, and get insights to grow your income.</p>
+                                      <p className="josefin-sans-semiblod">Elite: Included · Starter & Pro: $14.99/mo add-on</p>
                                   </li>
-                                  <li class="wm-item"  data-aos="fade-left" data-aos-delay="400"
+                                  <li className="wm-item"  data-aos="fade-left" data-aos-delay="400"
                                       data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-offset="150">
-                                      <span class="josefin-sans-bold">Appointment Reminders</span>
-                                      <p class="josefin-sans-semiblod">Reduce no-shows with automatic text/email alerts sent to your clients.</p>
-                                      <p class="josefin-sans-semiblod">Elite: Included · Starter & Pro: $4.99/mo add-on</p>
+                                      <span className="josefin-sans-bold">Appointment Reminders</span>
+                                      <p className="josefin-sans-semiblod">Reduce no-shows with automatic text/email alerts sent to your clients.</p>
+                                      <p className="josefin-sans-semiblod">Elite: Included · Starter & Pro: $4.99/mo add-on</p>
                                   </li>
-                                  <li class="wm-item"  data-aos="fade-left" data-aos-delay="400"
+                                  <li className="wm-item"  data-aos="fade-left" data-aos-delay="400"
                                       data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-offset="150">
-                                      <span class="josefin-sans-bold">Recurring Bookings</span>
-                                      <p class="josefin-sans-semiblod">Turn one-time clients into loyal monthly members with built-in recurring appointments.</p>
+                                      <span className="josefin-sans-bold">Recurring Bookings</span>
+                                      <p className="josefin-sans-semiblod">Turn one-time clients into loyal monthly members with built-in recurring appointments.</p>
                                   </li>
-                                  <li class="wm-item" data-aos="fade-left" data-aos-delay="400"
+                                  <li className="wm-item" data-aos="fade-left" data-aos-delay="400"
                                       data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-offset="150">
-                                      <span class="josefin-sans-bold">Visibility Boost in Search</span>
-                                      <p class="josefin-sans-semiblod">Pros on paid plans rank higher in search results and show up more often to local clients.</p>
+                                      <span className="josefin-sans-bold">Visibility Boost in Search</span>
+                                      <p className="josefin-sans-semiblod">Pros on paid plans rank higher in search results and show up more often to local clients.</p>
                                   </li>
-                                  <li class="wm-item"  data-aos="fade-left" data-aos-delay="400"
+                                  <li className="wm-item"  data-aos="fade-left" data-aos-delay="400"
                                       data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-offset="150">
-                                      <span class="josefin-sans-bold">Transparent Earnings, No Surprises</span>
-                                      <p class="josefin-sans-semiblod">You keep up to 100% of your earnings with low commission tiers designed for real professionals.</p>
+                                      <span className="josefin-sans-bold">Transparent Earnings, No Surprises</span>
+                                      <p className="josefin-sans-semiblod">You keep up to 100% of your earnings with low commission tiers designed for real professionals.</p>
                                   </li>
                               </ul>
                           </div>
                       </div>
                   </div>
-                  <Image src={cuttingmachine} alt="machine" class="mw-machine" width={100} height={100} />
+                  <Image src={cuttingmachine} alt="machine" className="mw-machine" width={100} height={100} />
               </section>
     </>
   );

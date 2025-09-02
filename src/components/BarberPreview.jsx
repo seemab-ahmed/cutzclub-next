@@ -29,92 +29,92 @@ export default function BarberPreview() {
     <>
       {/* barber profile section start  */}
     <section className="barber-preview">
-        <div class="container">
-            <h2 class="barber-heading josefin-sans-bold">Top Rated Pros Near You</h2>
-            <p class="subheading">Discover highly rated professionals delivering top-notch grooming services in your
+        <div className="container">
+            <h2 className="barber-heading josefin-sans-bold">Top Rated Pros Near You</h2>
+            <p className="subheading">Discover highly rated professionals delivering top-notch grooming services in your
                 city.</p>
 
-            <div class="barber-card-grid">
+            <div className="barber-card-grid">
 
-                <div class="barber-card">
+                <div className="barber-card">
                     <Image src={jhon} alt="James Carter" width={100} height={100} />
-                    <div class="barber-info">
-                        <h3 class="josefin-sans-bold">John Baker</h3>
-                        <p class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
+                    <div className="barber-info">
+                        <h3 className="josefin-sans-bold">John Baker</h3>
+                        <p className="rating">
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star-half-stroke"></i>
                             <span>(4.9)</span>
                         </p>
-                        <p class="location"><i class="fa-solid fa-location-dot"></i> Brooklyn, NY</p>
-                        <p class="specialty">Expert in skin fades and detailed beard grooming with a modern touch.
+                        <p className="location"><i className="fa-solid fa-location-dot"></i> Brooklyn, NY</p>
+                        <p className="specialty">Expert in skin fades and detailed beard grooming with a modern touch.
                         </p>
-                        <div class="team-socials">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        <div className="team-socials">
+                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#"><i className="fab fa-twitter"></i></a>
+                            <a href="#"><i className="fab fa-instagram"></i></a>
                         </div>
-                        <a href="#" class="view-profile-btn josefin-sans-bold">View Profile</a>
+                        <a href="#" className="view-profile-btn josefin-sans-bold">View Profile</a>
                     </div>
-                    <div class="barber-name">
-                        <h4 class="josefin-sans-bold">John Baker</h4>
+                    <div className="barber-name">
+                        <h4 className="josefin-sans-bold">John Baker</h4>
                     </div>
                 </div>
 
-                <div class="barber-card">
+                <div className="barber-card">
                     <Image src={jamees} alt="Vanessa Lopez" width={100} height={100} />
-                    <div class="barber-info">
-                        <h3 class="josefin-sans-bold">James Carter</h3>
-                        <p class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                    <div className="barber-info">
+                        <h3 className="josefin-sans-bold">James Carter</h3>
+                        <p className="rating">
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
                             <span>(5.0)</span>
                         </p>
-                        <p class="location"><i class="fa-solid fa-location-dot"></i> Miami, FL</p>
-                        <p class="specialty">Specialist in women's cuts, natural styling, and loc maintenance.</p>
-                        <div class="team-socials">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        <p className="location"><i className="fa-solid fa-location-dot"></i> Miami, FL</p>
+                        <p className="specialty">Specialist in women's cuts, natural styling, and loc maintenance.</p>
+                        <div className="team-socials">
+                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#"><i className="fab fa-twitter"></i></a>
+                            <a href="#"><i className="fab fa-instagram"></i></a>
                         </div>
-                        <a href="#" class="view-profile-btn josefin-sans-bold">View Profile</a>
+                        <a href="#" className="view-profile-btn josefin-sans-bold">View Profile</a>
                     </div>
-                    <div class="barber-name">
-                        <h4 class="josefin-sans-bold">James Carter</h4>
+                    <div className="barber-name">
+                        <h4 className="josefin-sans-bold">James Carter</h4>
                     </div>
                 </div>
 
-                <div class="barber-card">
+                <div className="barber-card">
                     <Image src={tyronee} alt="Tyrone Mitchell" width={100} height={100} />
-                    <div class="barber-info">
-                        <h3 class="josefin-sans-bold">Tyrone Mitchell</h3>
-                        <p class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                    <div className="barber-info">
+                        <h3 className="josefin-sans-bold">Tyrone Mitchell</h3>
+                        <p className="rating">
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-regular fa-star"></i>
                             <span>(4.7)</span>
                         </p>
-                        <p class="location"><i class="fa-solid fa-location-dot"></i> Dallas, TX</p>
-                        <p class="specialty">Known for sharp linings, classic cuts, and fast turnarounds.</p>
-                        <div class="team-socials">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        <p className="location"><i className="fa-solid fa-location-dot"></i> Dallas, TX</p>
+                        <p className="specialty">Known for sharp linings, classic cuts, and fast turnarounds.</p>
+                        <div className="team-socials">
+                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#"><i className="fab fa-twitter"></i></a>
+                            <a href="#"><i className="fab fa-instagram"></i></a>
                         </div>
-                        <a href="#" class="view-profile-btn josefin-sans-bold">View Profile</a>
+                        <a href="#" className="view-profile-btn josefin-sans-bold">View Profile</a>
                     </div>
-                    <div class="barber-name">
-                        <h4 class="josefin-sans-bold">Tyrone Mitchell</h4>
+                    <div className="barber-name">
+                        <h4 className="josefin-sans-bold">Tyrone Mitchell</h4>
                     </div>
                 </div>
 
@@ -124,47 +124,47 @@ export default function BarberPreview() {
 
      {/* Barber Pitch Section  */}
     <section className="barber-boost-section">
-        <div class="container">
-            <h2 class="custom-heading josefin-sans-bold ">Pros, This Is More Than Just a Booking Tool. <span>It’s a Business Booster.</span></h2>
-            <div class="boost-grid">
-                <div class="boost-item">
+        <div className="container">
+            <h2 className="custom-heading josefin-sans-bold ">Pros, This Is More Than Just a Booking Tool. <span>It’s a Business Booster.</span></h2>
+            <div className="boost-grid">
+                <div className="boost-item">
                     <div>
-                        <h3 class="instrument-sans-bold">Transparent Earnings</h3>
-                        <p class="instrument-sans-medium">You keep up to 100% with low commissions and clear plans</p>
+                        <h3 className="instrument-sans-bold">Transparent Earnings</h3>
+                        <p className="instrument-sans-medium">You keep up to 100% with low commissions and clear plans</p>
                     </div>
                 </div>
 
-                <div class="boost-item">
+                <div className="boost-item">
 
                     <div>
-                        <h3 class="instrument-sans-bold">Reminders & Recurring Appointments</h3>
-                        <p class="instrument-sans-medium">Text/email alerts + monthly booking options = less stress.</p>
+                        <h3 className="instrument-sans-bold">Reminders & Recurring Appointments</h3>
+                        <p className="instrument-sans-medium">Text/email alerts + monthly booking options = less stress.</p>
                     </div>
                 </div>
 
-                <div class="boost-item">
+                <div className="boost-item">
 
                     <div>
-                        <h3 class="instrument-sans-bold">Top Search Visibility</h3>
-                        <p class="instrument-sans-medium">Rank higher in local search results and get more clients.</p>
+                        <h3 className="instrument-sans-bold">Top Search Visibility</h3>
+                        <p className="instrument-sans-medium">Rank higher in local search results and get more clients.</p>
                     </div>
                 </div>
 
-                <div class="boost-item">
+                <div className="boost-item">
 
                     <div>
-                        <h3 class="instrument-sans-bold">Tools to Grow</h3>
-                        <p class="instrument-sans-medium">AI-powered insights, package builder, and client analytics.</p>
+                        <h3 className="instrument-sans-bold">Tools to Grow</h3>
+                        <p className="instrument-sans-medium">AI-powered insights, package builder, and client analytics.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="boost-cta josefin-sans-bold">
-                <p class="josefin-sans-bold">Ready to grow your pros business?</p>
-                <a href="#join" class="primary-btn josefin-sans-bold">Join CutzClub Today</a>
+            <div className="boost-cta josefin-sans-bold">
+                <p className="josefin-sans-bold">Ready to grow your pros business?</p>
+                <a href="#join" className="primary-btn josefin-sans-bold">Join CutzClub Today</a>
             </div>
         </div>
-        <Image src={sezor} alt="sezor" class="sezor-img" width={100} height={100} />
+        <Image src={sezor} alt="sezor" className="sezor-img" width={100} height={100} />
     </section>
 
       {/* Testimonial Section Starts  */}
@@ -257,17 +257,17 @@ export default function BarberPreview() {
       </section>
 
         {/* Pricing Plans Section  */}
-    <section class="section-pricing-plans">
-        <div class="container pricing-main-dev">
-            <h2 class="custom-heading">Choose the Right Plan for You</h2>
-            <p class="default-text" data-aos-offset="80">Simple, transparent pricing designed to match your growth.
+    <section className="section-pricing-plans">
+        <div className="container pricing-main-dev">
+            <h2 className="custom-heading">Choose the Right Plan for You</h2>
+            <p className="default-text" data-aos-offset="80">Simple, transparent pricing designed to match your growth.
             </p>
 
-            <div class="pricing-cards-grid">
-                <div class="pricing-card">
-                    <h3 class="plan-name">Starter</h3>
-                    <p class="plan-price" data-aos-offset="100">$9.99 <span>/month</span></p>
-                    <ul class="plan-features">
+            <div className="pricing-cards-grid">
+                <div className="pricing-card">
+                    <h3 className="plan-name">Starter</h3>
+                    <p className="plan-price" data-aos-offset="100">$9.99 <span>/month</span></p>
+                    <ul className="plan-features">
                         <li>15% platform fee (you keep 85% of earnings)</li>
                         <li> Manage up to 50 clients</li>
                         <li> Listed in the CutzClub directory</li>
@@ -280,10 +280,10 @@ export default function BarberPreview() {
                     </ul>
                 </div>
 
-                <div class="pricing-card pricing-card-featured">
-                    <h3 class="plan-name">Pro</h3>
-                    <p class="plan-price">$19.99 <span>/month</span></p>
-                     <ul class="plan-features">
+                <div className="pricing-card pricing-card-featured">
+                    <h3 className="plan-name">Pro</h3>
+                    <p className="plan-price">$19.99 <span>/month</span></p>
+                     <ul className="plan-features">
                         <li>7% platform fee (you keep 93% of earnings)</li>
                         <li>Unlimited clients</li>
                         <li>Priority search placement</li>
@@ -296,11 +296,11 @@ export default function BarberPreview() {
                     </ul>
 
                 </div>
-                <div class="pricing-card .elite-highlight">
-                    <h3 class="plan-name">Elite</h3>
-                    <p class="plan-price">$49.99 <span>/month</span></p>
+                <div className="pricing-card .elite-highlight">
+                    <h3 className="plan-name">Elite</h3>
+                    <p className="plan-price">$49.99 <span>/month</span></p>
                     <div></div>
-                    <ul class="plan-features">
+                    <ul className="plan-features">
                         <li>0% platform fee (you keep 100% of earnings)</li>
                         <li>Unlimited clients</li>
                         <li>Featured homepage placement</li>
@@ -311,7 +311,7 @@ export default function BarberPreview() {
                         <li>Priority support + onboarding</li>
                         <li>Early access to new features</li>
                     </ul>
-                     {/* <div class="badge">Most Popular</div>  */}
+                     {/* <div className="badge">Most Popular</div>  */}
 
                 </div>
             </div>

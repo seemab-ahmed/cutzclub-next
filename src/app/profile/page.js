@@ -7,29 +7,27 @@ import Link from "next/link";
 export default function Profile() {
   return (
     <>
-    <section  class="cc_searchbar_section">
+    <section  className="cc_searchbar_section">
       <div className="container">
         {/*  Search / Filter Bar */}
-        <section class="cc-searchbar " role="search">
-          <form class="cc-searchbar__form" action="#" method="get" aria-label="Find a pro">
-            
-          
-            <label class="sr-only" for="serviceSelect">All Services</label>
-            <div class="cc-select">
+        <section className="cc-searchbar " role="search">
+          <form className="cc-searchbar__form" action="#" method="get" aria-label="Find a pro">
+            <label className="sr-only" htmlFor="serviceSelect">All Services</label>
+            <div className="cc-select">
               <select id="serviceSelect" name="service" aria-label="Filter by service">
                 <option value="all" selected>All Services</option>
                 <option value="barber">Barbers</option>
                 <option value="stylist">Stylists</option>
                 <option value="loctician">Locticians</option>
               </select>
-              <span class="cc-select__icon" aria-hidden="true">▾</span>
+              <span className="cc-select__icon" aria-hidden="true">▾</span>
             </div>
 
-        
-            <label class="sr-only" for="q">Search by name, city, or style</label>
+
+            <label className="sr-only" htmlFor="q">Search by name, city, or style</label>
             <input
               id="q"
-              class="cc-searchbar__input"
+              className="cc-searchbar__input"
               type="search"
               name="q"
               placeholder="Search by name, city, or style"
@@ -37,61 +35,61 @@ export default function Profile() {
             />
 
           
-            <button class="cc-btn cc-btn--gold" type="submit">Search</button>
+            <button className="cc-btn cc-btn--gold" type="submit">Search</button>
           </form>
         </section>
 
         {/* Results List */}
-          <ul class="cc-results">
+          <ul className="cc-results">
             {/* Barber */}
-            <li class="cc-card" data-type="barber">
-              <div class="cc-avatar" aria-hidden="true"><Image src={jhon} alt="James Carter" width={100} height={100} /></div>
-              <div class="cc-card__body">
-                <div class="cc-card__top">
-                  <h3 class="cc-name">Jacob W. <span class="cc-rating">(5.0)</span></h3>
-                  <Link href="/profile/1"  class="cc-btn cc-btn--outline">View Profile</Link>
+            <li className="cc-card" data-type="barber">
+              <div className="cc-avatar" aria-hidden="true"><Image src={jhon} alt="James Carter" width={100} height={100} /></div>
+              <div className="cc-card__body">
+                <div className="cc-card__top">
+                  <h3 className="cc-name">Jacob W. <span className="cc-rating">(5.0)</span></h3>
+                  <Link href="/profile/1"  className="cc-btn cc-btn--outline">View Profile</Link>
                 </div>
-                <p class="cc-meta">Barber • Norfolk, VA</p>
-                <p class="cc-desc">Razor fade specialist w/ 10 yrs experience.</p>
+                <p className="cc-meta">Barber • Norfolk, VA</p>
+                <p className="cc-desc">Razor fade specialist w/ 10 yrs experience.</p>
               </div>
             </li>
 
             {/* Barber */}
-            <li class="cc-card" data-type="barber">
-              <div class="cc-avatar" aria-hidden="true"><Image src={jamees} alt="James Carter" width={100} height={100} /></div>
-              <div class="cc-card__body">
-                <div class="cc-card__top">
-                  <h3 class="cc-name">Jay the Barber <span class="cc-rating">(4.8)</span></h3>
-                 <Link href="/profile/1"  class="cc-btn cc-btn--outline">View Profile</Link>
+            <li className="cc-card" data-type="barber">
+              <div className="cc-avatar" aria-hidden="true"><Image src={jamees} alt="James Carter" width={100} height={100} /></div>
+              <div className="cc-card__body">
+                <div className="cc-card__top">
+                  <h3 className="cc-name">Jay the Barber <span className="cc-rating">(4.8)</span></h3>
+                 <Link href="/profile/1"  className="cc-btn cc-btn--outline">View Profile</Link>
                 </div>
-                <p class="cc-meta">Barber • Atlanta, GA</p>
-                <p class="cc-desc">Clean fades, beard sculpting, premium finishes.</p>
+                <p className="cc-meta">Barber • Atlanta, GA</p>
+                <p className="cc-desc">Clean fades, beard sculpting, premium finishes.</p>
               </div>
             </li>
 
             {/* Loctician */}
-            <li class="cc-card" data-type="loctician">
-              <div class="cc-avatar" aria-hidden="true"><Image src={jamees} alt="James Carter" width={100} height={100} /></div>
-              <div class="cc-card__body">
-                <div class="cc-card__top">
-                  <h3 class="cc-name">James C. <span class="cc-rating">(4.7)</span></h3>
-                  <Link href="/profile/1"  class="cc-btn cc-btn--outline">View Profile</Link>
+            <li className="cc-card" data-type="loctician">
+              <div className="cc-avatar" aria-hidden="true"><Image src={jamees} alt="James Carter" width={100} height={100} /></div>
+              <div className="cc-card__body">
+                <div className="cc-card__top">
+                  <h3 className="cc-name">James C. <span className="cc-rating">(4.7)</span></h3>
+                  <Link href="/profile/1"  className="cc-btn cc-btn--outline">View Profile</Link>
                 </div>
-                <p class="cc-meta">Loctician • Charlotte, NC</p>
-                <p class="cc-desc">Starter locs, retwists, maintenance & care.</p>
+                <p className="cc-meta">Loctician • Charlotte, NC</p>
+                <p className="cc-desc">Starter locs, retwists, maintenance & care.</p>
               </div>
             </li>
 
             {/* Stylist */}
-            <li class="cc-card" data-type="stylist">
-              <div class="cc-avatar" aria-hidden="true"><Image src={tyronee} alt="James Carter" width={100} height={100} /></div>
-              <div class="cc-card__body">
-                <div class="cc-card__top">
-                  <h3 class="cc-name">Omari O. <span class="cc-rating">(5.0)</span></h3>
-                  <Link href="/profile/1"  class="cc-btn cc-btn--outline">View Profile</Link>
+            <li className="cc-card" data-type="stylist">
+              <div className="cc-avatar" aria-hidden="true"><Image src={tyronee} alt="James Carter" width={100} height={100} /></div>
+              <div className="cc-card__body">
+                <div className="cc-card__top">
+                  <h3 className="cc-name">Omari O. <span className="cc-rating">(5.0)</span></h3>
+                  <Link href="/profile/1"  className="cc-btn cc-btn--outline">View Profile</Link>
                 </div>
-                <p class="cc-meta">Hairstylist • Washington, DC</p>
-                <p class="cc-desc">Silk press, protective styles, color services.</p>
+                <p className="cc-meta">Hairstylist • Washington, DC</p>
+                <p className="cc-desc">Silk press, protective styles, color services.</p>
               </div>
             </li>
           </ul>
