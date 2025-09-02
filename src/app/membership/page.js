@@ -29,11 +29,11 @@ export default function Membership() {
               <li><span className="dot"></span><span>AI package builder</span></li>
               <li><span className="dot"></span><span>Text/Email reminder</span></li>
             </ul>
-            <div className="ccm-ctas">
+            {/* <div className="ccm-ctas">
               <Link className="btn btn--ghost" href="/compare">Compare</Link>
               <Link className="btn" href="/signup?plan=starter">Choose Starter</Link>
               <Link href="/signup" aria-label="Sign up">Sign Up</Link>
-            </div>
+            </div> */}
           </article>
           {/* Plus */}
           <article className="ccm-card" role="listitem" aria-labelledby="plus-title">
@@ -56,10 +56,10 @@ export default function Membership() {
               <li><span className="dot"></span><span>AI package builder</span></li>
               <li><span className="dot"></span><span>Text/Email reminder</span></li>
             </ul>
-            <div className="ccm-ctas">
+            {/* <div className="ccm-ctas">
               <Link className="btn btn--ghost" href="/compare">Compare</Link>
               <Link className="btn" href="/signup?plan=plus">Choose Plus</Link>
-            </div>
+            </div> */}
           </article>
           {/* Elite */}
           <article className="ccm-card ccm-card--elite" role="listitem" aria-labelledby="elite-title">
@@ -76,10 +76,10 @@ export default function Membership() {
               <li><span className="dot"></span><span>Priority concierge support</span></li>
               <li><span className="dot"></span><span><strong>Platform fee: 0%</strong></span></li>
             </ul>
-            <div className="ccm-ctas">
+            {/* <div className="ccm-ctas">
               <Link className="btn btn--ghost" href="/compare">Compare</Link>
               <Link className="btn" href="/signup?plan=elite">Choose Elite</Link>
-            </div>
+            </div> */}
           </article>
         </section>
       </main>

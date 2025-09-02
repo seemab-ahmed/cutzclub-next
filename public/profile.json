@@ -1,0 +1,101 @@
+[
+  {
+  "id": "jacob-w",
+    "name": "Jacob W.",
+    "elite": true,
+    "rating": 5.0,
+    "reviewCount": 500,
+    "category": "barber",
+    "location": "Norfolk, VA",
+  "specialty": "Razor fade specialist with 10+ years experience. Precision fades and classic looks.",
+    "serviceTime": "45 m",
+    "priceRange": "$40-$55",
+    "image": "/assets/images/htw-top1.png",
+    "services": [
+      { "title": "Skin Fade", "desc": "45 min · Clippers & shears · Hot towel finish", "price": 45 },
+      { "title": "Haircut + Beard", "desc": "60 min · Line-up & beard sculpting", "price": 65 },
+      { "title": "Kids Cut", "desc": "30 min · Age 12 and under", "price": 30 }
+    ],
+    "about": "I’ve been cutting for over a decade with a focus on precision fades and classic looks. I’m Elite on CutzClub—remders & premium scalding.",
+    "tags": ["Fades", "Beard work", "Line-ups", "Designs"],
+    "gallery": [
+      "/assets/images/htw-top1.png",
+      "/assets/images/htw-top2.jpg",
+      "/assets/images/member-works.webp",
+      "/assets/images/jhon.png"
+    ],
+    "reviews": [
+      {
+        "reviewer": "Marcus G.",
+        "date": "Jan 9, 2025",
+        "stars": 5,
+        "text": "Sharpcut on time, and super professional. Booking again."
+      },
+      {
+        "reviewer": "Alina P.",
+        "date": "Dec 22, 2024",
+        "stars": 4,
+        "text": "Loved the fade. Clean workspace and easy scheduling."
+      }
+    ],
+    "policies": [
+      "Late arrivals over 10 minutes-may be rescheduled.",
+      "24-hour cancellation preferred."
+    ],
+    "social": [
+      { "type": "facebook", "url": "#" },
+      { "type": "instagram", "url": "#" },
+      { "type": "youtube", "url": "#" }
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24666421.060869887!2d72.19316504002832!3d29.317231455486397!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1756777248063!5m2!1sen!2s"
+  },
+  {
+  "id": "jay-the-barber",
+    "name": "Jay the Barber",
+    "elite": false,
+    "rating": 4.8,
+    "reviewCount": 320,
+    "category": "stylists",
+    "location": "Atlanta, GA",
+  "specialty": "Clean fades, beard sculpting, premium finishes. Detail-oriented and customer-focused.",
+    "serviceTime": "50 m",
+    "priceRange": "$35-$60",
+    "image": "/assets/images/jamees.png",
+    "services": [
+      { "title": "Classic Fade", "desc": "50 min · Clippers & shears", "price": 40 },
+      { "title": "Beard Trim", "desc": "20 min · Beard sculpting", "price": 25 },
+      { "title": "Premium Finish", "desc": "60 min · Full service", "price": 60 }
+    ],
+    "about": "Barber in Atlanta specializing in clean fades and beard work. Premium finishes and attention to detail.",
+    "tags": ["Fades", "Beard sculpting", "Premium finishes"],
+    "gallery": [
+      "/assets/images/jamees.png",
+      "/assets/images/htw-top2.jpg",
+      "/assets/images/member-works.webp",
+      "/assets/images/jhon.png"
+    ],
+    "reviews": [
+      {
+        "reviewer": "Chris T.",
+        "date": "Feb 2, 2025",
+        "stars": 5,
+        "text": "Jay is the best in Atlanta! Always a sharp cut."
+      },
+      {
+        "reviewer": "Sam R.",
+        "date": "Jan 15, 2025",
+        "stars": 4,
+        "text": "Great beard trim and friendly service."
+      }
+    ],
+    "policies": [
+      "Arrive on time for best results.",
+      "Cancellations require 12-hour notice."
+    ],
+    "social": [
+      { "type": "facebook", "url": "#" },
+      { "type": "instagram", "url": "#" }
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24666421.060869887!2d72.19316504002832!3d29.317231455486397!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1756777248063!5m2!1sen!2s"
+  }
+]

@@ -2005,6 +2005,7 @@ h1 span {
   font-size: clamp(30px, 3vw, 44px);
   font-weight: 800;
   letter-spacing: .5px;
+  color: var(--cc-gold);
 }
 
 .ccm-price {
@@ -2030,7 +2031,7 @@ h1 span {
   font-size: 17px;
 }
 
-.ccm-list li { display: flex; align-items: flex-start; }
+.ccm-list li { display: flex; align-items: flex-start; color: var(--cc-text); }
 
 .dot {
   width: 8px;
@@ -2413,6 +2414,7 @@ background-color: #000 !important;
 /* custom-membership css start here */
 .custom-membership .container{
   max-width: 1280px;
+  margin-top: 80px ;
 }
 
 
@@ -2552,8 +2554,8 @@ background-color: #000 !important;
 .cc_searchbar_section    .cc-card__top{
   display:flex; align-items:center; justify-content:space-between; gap:12px;
 }
-.cc_searchbar_section    .cc-name{ margin:0; color:var(--cc-text); font:800 22px/1.2 "League Spartan", system-ui; }
-.cc_searchbar_section    .cc-rating{ color:var(--cc-sub); font-weight:700; }
+.cc_searchbar_section    .cc-name{ margin:0; color:var(--cc-gold); font:800 22px/1.2 "League Spartan", system-ui; }
+.cc_searchbar_section    .cc-rating{ color:var(--cc-text); font-weight:700; }
 .cc_searchbar_section    .cc-meta{ margin:0; color:var(--cc-sub); font:600 18px/1.4 system-ui; }
 .cc_searchbar_section    .cc-desc{ margin:0; color:var(--cc-text); font:500 18px/1.5 system-ui; }
 .cc_searchbar_section #serviceSelect{ background: var(--cc-bg);}
