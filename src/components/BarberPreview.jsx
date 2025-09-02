@@ -7,7 +7,6 @@ import jhon from "../../public/assets/images/jhon.png";
 import tyronee from "../../public/assets/images/tyronee.png";
 import sezor from "../../public/assets/images/sezor.svg";
 import dynamic from "next/dynamic";
-
 // ✅ dynamically import react-slick so it only runs client-side
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 

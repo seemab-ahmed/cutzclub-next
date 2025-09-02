@@ -68,19 +68,19 @@ export default function Hero() {
             <section class="membership-work" id="membership">
                   <div class="container">
                       <div class="master-box">
-                          <h2 class="josefin-sans-bold">Why Membership Works </h2>
+                          <h2 className="josefin-sans-bold">Why Membership Works </h2>
                           <div class="main-box">
                               <div class="image-box">
-                                  <p class="josefin-sans-bold membership-dosktop">
+                                  <p className="josefin-sans-bold membership-dosktop">
                                       Whether you're new or fully booked, CutzClub helps you attract clients, save time, and
                                       boost
                                       income — all in one place.
                                   </p>
-                                  <p class="josefin-sans-bold membership-mobile">
+                                  <p className="josefin-sans-bold membership-mobile">
                                       Whether you're new or fully booked, CutzClub helps you attract clients, save time, and
                                       boost income — all in one place.
                                   </p>
-                                  <Image src={membership} alt="satisfied-handsome-man-thumb-up-hold-scissors"
+                                  <Image src={membership} alt="satisfied image"
                                       class="mw-cutout" width={100} height={100} />
                               </div>
                               <ul class="why-membership-list">

@@ -2,6 +2,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer"
+import Head from "next/head";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -20,6 +22,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
      <html lang="en">
+       <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
         {children}
