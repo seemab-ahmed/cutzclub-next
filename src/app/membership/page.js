@@ -3,7 +3,9 @@ import Link from "next/link";
 export default function Membership() {
   return (
     <>
-      <main className="shell cc-membership" aria-labelledby="cc-membership-title">
+     <section className="custom-membership">
+      <div className="container">
+         <main className="shell cc-membership" aria-labelledby="cc-membership-title">
         <h1 id="cc-membership-title" className="ccm-title">Membership</h1>
         <section className="ccm-grid" role="list" aria-label="CutzClub Membership Plans">
           {/* Starter */}
@@ -81,6 +83,8 @@ export default function Membership() {
           </article>
         </section>
       </main>
+      </div>
+     </section>
       
     </>
   );

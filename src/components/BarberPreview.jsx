@@ -212,7 +212,7 @@ export default function BarberPreview() {
                 project's manufacturing data collection and retrieval needs."
               </blockquote>
               <div className="testi-detail">
-                <img src="./assets/images/client3.jpg" alt="Bryan Buchanan - 3M Company" className="testimonial-image"
+                <img src="./assets/images/client_1.png" alt="Bryan Buchanan - 3M Company" className="testimonial-image"
                   loading="lazy" />
                 <div className="testi-role-name">
                   <h3 className="testimonial-name">Bryan Buchanan</h3>
@@ -228,7 +228,7 @@ export default function BarberPreview() {
                 service is truly outstanding and indeed beyond our expectations."
               </blockquote>
               <div className="testi-detail">
-                <img src="./assets/images/testi_logo2.jpg" alt="Lt. John Vilano - U.S. Army"
+                <img src="./assets/images/client2.png" alt="Lt. John Vilano - U.S. Army"
                   className="testimonial-image" loading="lazy" />
                 <div className="testi-role-name">
                   <h3 className="testimonial-name">Lt. John Vilano</h3>
@@ -244,7 +244,7 @@ export default function BarberPreview() {
                 companies I have done business with."
               </blockquote>
               <div className="testi-detail">
-                <img src="./assets/images/testi_logo3.png" alt="Mark Garcia - McAllen Foreign Trade Zone"
+                <img src="./assets/images/client_1.png" alt="Mark Garcia - McAllen Foreign Trade Zone"
                   className="testimonial-image" loading="lazy" />
                 <div className="testi-role-name">
                   <h3 className="testimonial-name">Mark Garcia</h3>
