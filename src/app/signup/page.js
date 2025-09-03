@@ -10,7 +10,7 @@ export default function Signup() {
     <section className="signup-section">
       <main className="wrap">
         <header className="brand">
-          <h1>CUTZCLUB</h1>
+          <h1>SIGN UP</h1>
         </header>
 
         <section className="role">
@@ -27,7 +27,7 @@ export default function Signup() {
         className={`pill ${role === "client" ? "" : "pill--muted"}`}
         htmlFor="role-client"
       >
-        I’m A Client
+        I’m a Professional
       </label>
 
       {/* Barber */}
@@ -44,12 +44,11 @@ export default function Signup() {
         className={`pill ${role === "barber" ? "" : "pill--muted"}`}
         htmlFor="role-barber"
       >
-        I’m A Barber
+         I’m a Client
       </label>
     </section>
 
         <section className="card">
-          <h2>Sign Up</h2>
           <form
             action="#"
             method="post"

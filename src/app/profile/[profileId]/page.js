@@ -88,13 +88,7 @@ export default function ProfileDetail() {
                     {profile.tags.map((tag, idx) => <span className="tag" key={idx}>{tag}</span>)}
                   </div>
                 </div>
-              </div>
-            )}
-            {/* Gallery */}
-            {activeTab === 'gallery' && (
-              <div className="tab-panel active" id="gallery">
-                <div className="gallery-section">
-                  <div className="map-placeholder">
+                <div className="map-placeholder">
                       <iframe
                         src={mapUrl}
                       width="600"
@@ -105,36 +99,13 @@ export default function ProfileDetail() {
                     ></iframe>
                   </div>
                   <p className="location-text">Downtown {profile.location}</p>
-                  <ul className="social_icons">
-                    {profile.social.map((s, idx) => (
-                      <li key={idx}><a href={s.url}>{s.type}</a></li>
-                    ))}
-                  </ul>
-                  <div className="review-box">
-                    <div className="review-header">
-                      <strong>{profile.rating} ★★★★★</strong>
-                      <span>{profile.reviews.length} reviews</span>
-                      <Link href="#">Write a review</Link>
-                    </div>
-                    {profile.reviews.map((review, idx) => (
-                      <div className="single-review" key={idx}>
-                        <div className="review-top">
-                          <span className="reviewer">{review.reviewer}</span>
-                          <span className="review-date">{review.date}</span>
-                        </div>
-                        <div className="review-stars">{'★'.repeat(review.stars)}{'☆'.repeat(5 - review.stars)}</div>
-                        <p className="review-text">{review.text}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
               </div>
             )}
-            {/* Reviews */}
-            {activeTab === 'reviews' && (
-              <div className="tab-panel active" id="reviews">
-                <div className="reviews-section">
-                  <div className="review-images">
+            {/* Gallery */}
+            {activeTab === 'gallery' && (
+              <div className="tab-panel active" id="gallery">
+                <div className="gallery-section">
+                   <div className="review-images">
                     {profile.gallery.map((img, idx) => (
                       <Image src={img} alt={`Review ${idx + 1}`} width={60} height={60} key={idx} />
                     ))}
@@ -142,7 +113,15 @@ export default function ProfileDetail() {
                   <div className="review-tags">
                     {profile.tags.map((tag, idx) => <span className="tag" key={idx}>{tag}</span>)}
                   </div>
-                  <div className="review-box">
+                  
+                </div>
+              </div>
+            )}
+            {/* Reviews */}
+            {activeTab === 'reviews' && (
+              <div className="tab-panel active" id="reviews">
+                <div className="reviews-section">
+                 <div className="review-box">
                     <div className="review-header">
                       <strong>{profile.rating} ★★★★★</strong>
                       <span>{profile.reviews.length} reviews</span>
@@ -165,71 +144,74 @@ export default function ProfileDetail() {
           </div>
         </div>
       </section>
-      <section className="profile_tabs-data">
-        <div className='container'>
-         <div className="progile_row">
-          <div className="left_col">
-            {/* About  */}
-            <div className="tab_panel" id="about">
-              <div className="about-section">
-                <h2>About</h2>
-                <p>{profile.about}</p>
-                <div className="tag-group">
-                  {profile.tags.map((tag, idx) => <span className="tag" key={idx}>{tag}</span>)}
-                </div>
-              </div>
-            </div>
-              {/* Reviews  */}
-            <div className="tab_panel" id="reviews">
-              <div className="reviews-section">
-                <h2>Reviews</h2>
-                  <div className="review-images">
-                    {profile.gallery.map((img, idx) => (
-                      <Image src={img} alt={`Review ${idx + 1}`} width={60} height={60} key={idx} />
-                    ))}
-                  </div>
-                  <div className="review-tags">
-                    {profile.tags.map((tag, idx) => <span className="tag" key={idx}>{tag}</span>)}
-                  </div>
-                </div>
-            </div>
-            {/* policies  */}
-            <div className="policies">
-              <h2>Policies</h2>
-              <ul>
-                {profile.policies.map((policy, idx) => (
-                  <li key={idx}><span>.</span> <p>{policy}</p></li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className="right_col">
-            {/* gallery  */}
-            <h2 className="gallery">Gallery</h2>
-            <div className="tab_panel" id="gallery">
-                <div className="gallery-section">
-                  <div className="map-placeholder">
-                      <iframe
-                        src={mapUrl}
-                      width="600"
-                      height="450"
-                      style={{ border: 0 }}
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                  </div>
-                  <p className="location-text">Downtown {profile.location}</p>
-                  <ul className="social_icons">
-                    {profile.social.map((s, idx) => (
-                      <li key={idx}><a href={s.url}>{s.type}</a></li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-          </div>
-          </div>
-        </div>
-       </section>
+      
     </>
   );
 }
+
+
+// <section className="profile_tabs-data">
+//         <div className='container'>
+//          <div className="progile_row">
+//           <div className="left_col">
+//             {/* About  */}
+//             <div className="tab_panel" id="about">
+//               <div className="about-section">
+//                 <h2>About</h2>
+//                 <p>{profile.about}</p>
+//                 <div className="tag-group">
+//                   {profile.tags.map((tag, idx) => <span className="tag" key={idx}>{tag}</span>)}
+//                 </div>
+//               </div>
+//             </div>
+//               {/* Reviews  */}
+//             <div className="tab_panel" id="reviews">
+//               <div className="reviews-section">
+//                 <h2>Reviews</h2>
+//                   <div className="review-images">
+//                     {profile.gallery.map((img, idx) => (
+//                       <Image src={img} alt={`Review ${idx + 1}`} width={60} height={60} key={idx} />
+//                     ))}
+//                   </div>
+//                   <div className="review-tags">
+//                     {profile.tags.map((tag, idx) => <span className="tag" key={idx}>{tag}</span>)}
+//                   </div>
+//                 </div>
+//             </div>
+//             {/* policies  */}
+//             <div className="policies">
+//               <h2>Policies</h2>
+//               <ul>
+//                 {profile.policies.map((policy, idx) => (
+//                   <li key={idx}><span>.</span> <p>{policy}</p></li>
+//                 ))}
+//               </ul>
+//             </div>
+//           </div>
+//           <div className="right_col">
+//             {/* gallery  */}
+//             <h2 className="gallery">Gallery</h2>
+//             <div className="tab_panel" id="gallery">
+//                 <div className="gallery-section">
+//                   <div className="map-placeholder">
+//                       <iframe
+//                         src={mapUrl}
+//                       width="600"
+//                       height="450"
+//                       style={{ border: 0 }}
+//                       loading="lazy"
+//                       referrerPolicy="no-referrer-when-downgrade"
+//                     ></iframe>
+//                   </div>
+//                   <p className="location-text">Downtown {profile.location}</p>
+//                   <ul className="social_icons">
+//                     {profile.social.map((s, idx) => (
+//                       <li key={idx}><a href={s.url}>{s.type}</a></li>
+//                     ))}
+//                   </ul>
+//                 </div>
+//               </div>
+//           </div>
+//           </div>
+//         </div>
+//        </section>

@@ -10,7 +10,7 @@ export default function Login() {
     <section className="custom-login">
       <main className="card" aria-labelledby="login-title">
         <h1 id="login-title" className="brand">
-          CUTZCLUB
+          LOGIN
         </h1>
 
         {/* Role Toggle */}
@@ -37,8 +37,11 @@ export default function Login() {
           </button>
         </div>
 
+
+
         {/* Form */}
         <form id="loginForm" noValidate>
+          
           {/* hidden input for selected role */}
           <input type="hidden" name="role" id="roleInput" value={role} />
 
