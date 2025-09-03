@@ -6,15 +6,17 @@
     "rating": 5.0,
     "reviewCount": 500,
     "category": "barber",
-    "location": "Norfolk, VA",
+  "location": "Norfolk, VA",
+  "zip": "23510",
   "specialty": "Razor fade specialist with 10+ years experience. Precision fades and classic looks.",
     "serviceTime": "45 m",
     "priceRange": "$40-$55",
     "image": "/assets/images/htw-top1.png",
+    "servicesCompleted": 1200,
     "services": [
-      { "title": "Skin Fade", "desc": "45 min · Clippers & shears · Hot towel finish", "price": 45 },
-      { "title": "Haircut + Beard", "desc": "60 min · Line-up & beard sculpting", "price": 65 },
-      { "title": "Kids Cut", "desc": "30 min · Age 12 and under", "price": 30 }
+      { "title": "Skin Fade", "desc": "45 min · Clippers & shears · Hot towel finish", "price": 45, "tags": ["fades", "skin fade"] },
+      { "title": "Haircut + Beard", "desc": "60 min · Line-up & beard sculpting", "price": 65, "tags": ["beard", "line-up"] },
+      { "title": "Kids Cut", "desc": "30 min · Age 12 and under", "price": 30, "tags": ["kids", "children"] }
     ],
     "about": "I’ve been cutting for over a decade with a focus on precision fades and classic looks. I’m Elite on CutzClub—remders & premium scalding.",
     "tags": ["Fades", "Beard work", "Line-ups", "Designs"],
@@ -56,15 +58,17 @@
     "rating": 4.8,
     "reviewCount": 320,
     "category": "stylists",
-    "location": "Atlanta, GA",
+  "location": "Atlanta, GA",
+  "zip": "30303",
   "specialty": "Clean fades, beard sculpting, premium finishes. Detail-oriented and customer-focused.",
     "serviceTime": "50 m",
     "priceRange": "$35-$60",
     "image": "/assets/images/jamees.png",
+    "servicesCompleted": 950,
     "services": [
-      { "title": "Classic Fade", "desc": "50 min · Clippers & shears", "price": 40 },
-      { "title": "Beard Trim", "desc": "20 min · Beard sculpting", "price": 25 },
-      { "title": "Premium Finish", "desc": "60 min · Full service", "price": 60 }
+      { "title": "Classic Fade", "desc": "50 min · Clippers & shears", "price": 40, "tags": ["fades", "classic fade"] },
+      { "title": "Beard Trim", "desc": "20 min · Beard sculpting", "price": 25, "tags": ["beard", "trim"] },
+      { "title": "Premium Finish", "desc": "60 min · Full service", "price": 60, "tags": ["premium", "full service"] }
     ],
     "about": "Barber in Atlanta specializing in clean fades and beard work. Premium finishes and attention to detail.",
     "tags": ["Fades", "Beard sculpting", "Premium finishes"],

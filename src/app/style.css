@@ -107,6 +107,9 @@ h1 {
   animation: gradientAnimation 0.5s;
   border: 1px solid #cc7a00;
 }
+.text-primary {
+  color: var(--text);
+}
 .default-text {
   font-size: 18px;
   display: block;
@@ -2450,11 +2453,18 @@ background-color: #000 !important;
 
 .cc_searchbar_section   .cc-searchbar__form{
   display:grid;
-  grid-template-columns: minmax(150px,210px) 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap:12px;
   align-items:center;
 }
 
+ .cc-searchbar__form2{ 
+  padding-top: 16px;
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  gap:12px;
+  align-items:center;
+}
 .cc_searchbar_section   .cc-select{
   position:relative;
   background:var(--cc-card);
@@ -2558,11 +2568,41 @@ background-color: #000 !important;
 .cc_searchbar_section    .cc-rating{ color:var(--cc-text); font-weight:700; }
 .cc_searchbar_section    .cc-meta{ margin:0; color:var(--cc-sub); font:600 18px/1.4 system-ui; }
 .cc_searchbar_section    .cc-desc{ margin:0; color:var(--cc-text); font:500 18px/1.5 system-ui; }
-.cc_searchbar_section #serviceSelect{ background: var(--cc-bg);}
-.cc_searchbar_section #serviceSelect option{ background: var(--cc-bg); color:#fff}
+.cc_searchbar_section .serviceSelect1{ background: var(--cc-bg);}
+.cc_searchbar_section .serviceSelect1 option{ background: var(--cc-bg); color:#fff}
+.serviceSelect1 option :hover{ background: var(--cc-gold); color:#000;}
+
+.cc-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--cc-text);
+}
+.cc-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--cc-text);
+}
+
+.cc-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+.cc-tags .cc-tag {
+  background: var(--cc-bg);
+  color: var(--cc-gold);
+  border: 1px solid var(--cc-line);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 14px;
+}
 /* ---- Responsive ---- */
 @media (max-width: 1440px){
-  .cc_searchbar_section {
+  .cc_searchbar_section { 
  padding: 120px 0 75px 0;
 }
 }
